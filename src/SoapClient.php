@@ -4,7 +4,7 @@ declare(strict_types=1);
  * Contains \JamesIArmes\PhpNtlm\NTLMSoapClient
  */
 
-namespace jamesiarmes\PhpNtlm;
+namespace mishanki\PhpNtlm;
 
 use CurlHandle;
 
