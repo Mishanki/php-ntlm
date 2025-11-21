@@ -1,16 +1,16 @@
 {
-  "name": "jamesiarmes/php-ntlm",
+  "name": "mishanki/php-ntlm",
   "description": "Library for communicating with Microsoft services using NTLM authentication.",
   "license": "MIT",
   "authors": [
     {
-      "name": "James Armes",
-      "email": "jamesiarmes@gmail.com"
+      "name": "Mishanki M",
+      "email": "mikhailmishanki@gmail.com"
     }
   ],
   "prefer-stable": true,
   "require": {
-    "php": ">=8.1",
+    "php": ">=8.5",
     "ext-soap": "*",
     "ext-curl": "*"
   },
