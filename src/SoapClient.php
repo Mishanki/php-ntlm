@@ -80,7 +80,7 @@ class SoapClient extends \SoapClient
     /**
      * {@inheritdoc}
      */
-    public function __doRequest(string $request, string $location, string $action, int $version, bool $oneWay = false): ?string
+    public function __doRequest(string $request, string $location, string $action, int $version, bool $oneWay = false, ?string $uriParserClass = null): ?string
 	{
         $headers = $this->buildHeaders($action);
         $this->__last_request = $request;
